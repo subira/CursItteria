@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE taglib PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN"
+        "http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd">
+<taglib>
+	<tlibversion>1.0</tlibversion>
+	<jspversion>1.1</jspversion>
+	<shortname>HolaMundo</shortname>
+	<info>
+		A tag library from Core Servlets and JavaServer Pages,
+		http://www.coreservlets.com/.
+	</info>
+	
+	<tag>
+		<name>HolaMundo</name>
+		<tagclass>Classes.HolaMundo</tagclass>
+		<info>Simplest example: inserts one line of output</info>
+		<bodycontent>EMPTY</bodycontent>
+	</tag>
+</taglib>
+	
+
