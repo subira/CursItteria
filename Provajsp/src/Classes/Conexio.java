@@ -16,12 +16,14 @@ import com.sun.xml.internal.txw2.Document;
 import com.sun.xml.internal.txw2.TypedXmlWriter;
 
 public class Conexio {
-	
+	List llistaNoms;
 	boolean trobat = false;
-	public Conexio(){
+	public List Conexio(){
+		llistaNoms = conectionValidacio();
+		return llistaNoms;
 		
 	}
-	public boolean conectionValidacio(String nom,String pasw){
+	public boolean conectionValidacio(){
 	 try {
 		Connection conexion = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/bbdd", "root", "");
 		
